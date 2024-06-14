@@ -1,0 +1,106 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #6c2b2b;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.row {
+    border: 1px solid brown;
+    color: brown;
+}
+
+.row td {
+    padding: 5px;
+}
+
+.row th {
+    padding: 5px;
+}
+
+.row td:last-child {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.row td:first-child {
+    width: 20%;
+}
+
+.row td:nth-child(2) {
+    width: 30%;
+}
+
+.row td:nth-child(3) {
+    width: 42%;
+}
+
+.row td:nth-child(4) {
+    width: auto;
+}
+
+.row td:nth-child(2),
+.row td:nth-child(4) {
+    border-right: none;
+}
+
+.row td:first-child,
+.row td:last-child {
+    border-bottom: none;
+}
+
+.info {
+    color: #6c2b2b;
+    font-family: "Arial";
+}
+
+.PersonalInfo {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #6c2b2b;
+    text-align: left;
+}
+
+.Table_Summary {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #6c2b2b;
+    text-align: left;
+    margin-right: 20px;
+    background-color: #fdeca6;
+    font-weight: bold;
+}
+
+.form_heading {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 110%;
+    color: #6c2b2b;
+}
+
+.form_heading h3 {
+    color: maroon;
+    margin: 0;
+    padding: 0;
+}
+
+#call {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 110%;
+    color: black;
+}
+
+.red {
+    background-color: maroon;
+    color: white;
+}
